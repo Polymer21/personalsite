@@ -1,0 +1,39 @@
+.projectsContainer {
+    display: grid;
+    grid-template-columns: 1fr 4fr 4fr 1fr;
+    grid-template-rows: .5fr 1fr 8fr 8fr 2fr;
+    grid-template-areas: 
+    ". nav . ."
+    ". head head ."
+    ". AboutMe Notsure ."
+    ". project3 project3 ."
+    ". footer footer .";
+    
+    width: 1440px;
+    height: auto;
+}
+
+.projectsContainer-Nav {
+    grid-area: nav;
+}
+
+.AboutMe {
+    grid-area: AboutMe;
+    box-shadow: 10px 10px 5px grey;
+    
+}
+.words {
+    grid-area: AboutMe;
+    font-family: Helvetica;
+    font-size: 50px; 
+}
+
+.Notsure {
+    grid-area: Notsure;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.project3 {
+    grid-area: project3;
+    box-shadow: 10px 10px 5px grey;
+}

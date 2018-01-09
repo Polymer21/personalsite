@@ -1,0 +1,41 @@
+.Nav {
+    grid-area: weather1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "Home Bio Projects Resume";
+
+    background-color: Pink;
+
+    height: 50px;
+}
+.Bio-Link {
+    align-self: center;
+    justify-self: center;
+    
+}
+.nav-Home {
+    display: block;
+    grid-area: Home;
+    align-self: center;
+    justify-self: center;
+    
+}
+
+.nav-Bio {
+    grid-area: Bio;
+    align-self: center;
+    justify-self: center;
+}
+
+.nav-Projects {
+    grid-area: Projects;
+    align-self: center;
+    justify-self: center;
+}
+
+.nav-Resume {
+    grid-area: Resume;
+    align-self: center;
+    justify-self: center;
+}

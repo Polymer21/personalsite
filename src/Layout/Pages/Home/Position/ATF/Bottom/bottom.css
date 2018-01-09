@@ -1,0 +1,15 @@
+.Bottom {
+    grid-area: Bottom;
+    display: grid;
+    grid-template-rows: .5fr 1fr 1fr;
+    grid-template-columns: 2fr 3.25fr 2fr 1fr 5fr; 
+    grid-template-areas: 
+    ". . river1 . bio"
+    " . river2 river2 . ."
+    ". river3 river3 . ."
+} 
+
+.bio {
+    grid-area: bio;
+    justify-self: center;
+}

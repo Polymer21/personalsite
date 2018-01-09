@@ -1,0 +1,21 @@
+.Home {
+    display: grid;
+    grid-template-rows: .25fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "nav"
+    "Top"
+    "Middle"
+    "Bottom";
+     
+     height: 900px;
+     width: 1440px;
+   
+   }
+   
+   .Home-Nav {
+     grid-area: nav;
+     align-self: center;
+   }
+   .content {
+     z-index: 900; 
+   }

@@ -1,0 +1,22 @@
+.resume {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-rows: 1fr 10fr 1fr;
+    grid-template-areas: 
+    ". nav ."
+    ". content ."
+    ". . .";
+
+width: 1440px;
+height: auto;
+
+} 
+
+.content {
+    grid-area: content;
+}
+
+.nav {
+    grid-area: nav;
+    align-self: center;
+}

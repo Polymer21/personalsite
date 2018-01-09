@@ -1,0 +1,44 @@
+.Interests {
+    grid-area: Interest;
+    display: grid;
+    grid-template-columns: 50px .05fr 4fr .10fr 2fr .27fr;
+    grid-template-rows: 1fr 2fr .25fr;
+    grid-template-areas: 
+    "leftside hmm Title . Photo ."
+    "leftside hmm DiscriptionBox . Photo ."
+    "leftside hmm . . . .";
+    background-color: white;
+    ;
+    
+}
+.leftside{
+    grid-area: leftside;
+    background-color: white;
+}
+
+.hmm{
+    grid-area: hmm;
+    background-color: white;
+}
+
+.title {
+    grid-area: Title;
+    font-family: futura;
+    font-size: 50px;
+    align-self: end;
+    justify-self: start;
+}
+
+.Photo {
+    grid-area: Photo;
+    background-image:url("./AiRound2.jpg");
+    
+    box-shadow: 10px 10px 5px grey;
+}
+
+.interestsDiscriptionBox {
+    grid-area: DiscriptionBox;
+    box-shadow: -10px 10px 5px grey;
+
+}
+

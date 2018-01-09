@@ -1,0 +1,117 @@
+.sectionMe {
+    grid-area: Me;
+    display: grid;
+    grid-template-columns: 50px .10fr 3fr 1fr .10fr .25fr .5fr 4fr 200px .5fr;
+    grid-template-rows: 50px .10fr 1fr 1fr 1fr 4fr .5fr;
+    grid-template-areas: 
+    "bracket1 bracket1 bracket1 . . . . bio-Nav bio-Nav ."
+    "bracket . . . . . . . . ."
+    "bracket . Photo name name name name . . ."
+    "bracket . Photo . . . age . . ."
+    "bracket . Photo . . . . discriptionblank discriptionTitle . "
+    "Links . Photo . . . discription discription discription . "; 
+    background-color: white;
+    
+
+}
+
+.bioNav {
+    grid-area: bio-Nav;
+}
+.bracket1 {
+    grid-area: bracket1;
+    background-color: lightpink;
+}
+
+.bracket {
+    grid-area: bracket; 
+    background-color: lightpink;
+}
+
+.photo {
+    background-image:url('./BioPhoto.JPG');
+    box-shadow: 10px 10px 5px grey;
+    grid-area: Photo;
+    border-color: grey;
+}
+
+.image {
+    max-height: 400px;
+    max-width: 200px;
+}
+
+.name {
+    grid-area: name;
+    justify-self: center;
+    font-family: Helvetica;
+    font-size: 25px;
+    color: skyblue;
+}
+
+.age {
+    grid-area: age;
+    font-family: Helvetica;
+    color: palevioletred;
+    align-self: center;
+    font-size: 25px;
+}
+
+.discriptionTitle {
+    grid-area: discriptionTitle;
+    align-self: center;
+    justify-self: center;
+    font-family: Helvetica;
+    font-size: 35px;
+    color: lightgreen;
+}
+
+.discriptionBox {
+    grid-area: discription;
+    box-shadow: 10px 10px 5px grey;
+        
+}
+
+.Links {
+    grid-area: Links;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "LinkedIn"
+    "gitHub"
+    "Instagram";
+    
+}
+
+.linkedIn {
+    align-self: center;
+}
+
+.gitHub {
+    align-self: center;
+}
+
+.instagram {
+    align-self: center;
+}
+
+.linkedInImage {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    align-self: center;
+}
+
+.gitHubImage {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    align-self: center;
+}
+
+.instagramImage {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    align-self: center;
+}
+

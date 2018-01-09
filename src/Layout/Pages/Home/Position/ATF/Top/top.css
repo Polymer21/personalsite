@@ -1,0 +1,11 @@
+.Top {
+    grid-area: Top;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1.5fr 2fr .5fr 1fr .75fr 1.5fr .5fr 2fr 3fr;
+    grid-template-areas: 
+    ". weather1 weather1 weather1 weather1 weather1 sky mtn skirun skistart sky2"
+    ". weather2 weather2 weather2 weather2 weather2 mtn8 mtn2ski mtn2ski mtn2 mtn2"
+    ". . . . mtn3 camp lake lake lake . mtn4"
+}
+

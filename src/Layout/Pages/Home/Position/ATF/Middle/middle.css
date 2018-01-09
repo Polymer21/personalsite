@@ -1,0 +1,31 @@
+.Middle {
+    grid-area: Middle;
+    display: grid;
+    grid-template-rows: auto .45fr .45fr .45fr;
+    grid-template-columns: .5fr .5fr 1fr 1.5fr 2.5fr 1fr .75fr 1.5fr 5.5fr;
+    grid-template-areas: 
+    ". . firstname firstname . . lake lake ."
+    ". location location location lastname lastname river2 river2 bio"
+    ". . . age lastname lastname river4 river4 bio"
+    ". . . . . river5 river5 . ."
+}
+
+.firstname {
+    grid-area: firstname;
+    align-self: end;
+    justify-self: center;
+
+}
+
+.lastname {
+    grid-area: lastname;
+}
+
+.location {
+    grid-area: location;
+}
+
+.bio {
+    grid-area: bio;
+    align-self: center;
+}

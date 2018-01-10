@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import "./Me.css"
-import BioNav from "../BioNav/BioNav"
+import Nav from "../../../../Nav/Nav"
 
 class Me extends Component {
     render(){
         return(
             <div className="sectionMe">
                 <div className="bioNav">
-                    <BioNav/>
+                    <Nav/>
                 </div>
                 <div className="bracket">
                 </div>
@@ -26,7 +26,7 @@ class Me extends Component {
                 </div>
                 <div className="discriptionBox">
                     <p className="discriptionWords">
-
+                        Pretty Normal Guy. Big chillin, and enjoying the Tech world. 
                     </p>
                 </div>
                 <div className="Links">

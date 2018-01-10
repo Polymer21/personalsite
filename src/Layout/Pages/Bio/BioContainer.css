@@ -14,24 +14,3 @@
     width: 100%; 
     height: auto;
 }
-
-.Nav {
-    grid-area: Nav;
-
-
-}
-
-
-.bioContainer-hobbies {
-    grid-area: Hobbies;
-    display: grid;
-    grid-template-columns: 50px .10fr 2fr .25fr 2fr .25fr 2fr .25fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    ". . photo1 . photo2 . link1 ."
-    ". . photo1 . photo2 . link2 ."
-    ". . photo1 . photo2 . link3 ."
-    ". . photo1 . photo2 . link4 .";
-    background-color: white;
-
-}

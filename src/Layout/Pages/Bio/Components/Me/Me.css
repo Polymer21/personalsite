@@ -65,10 +65,19 @@
     color: lightgreen;
 }
 
+                                                                /* Discription Box Start */
+
 .discriptionBox {
     grid-area: discription;
     box-shadow: 10px 10px 5px grey;
+    align-items: center;
+    justify-items: center;
         
+}
+
+.discriptionWords {
+    font-family: futura;
+    font-size: 25px;
 }
 
 .Links {

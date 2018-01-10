@@ -5,9 +5,10 @@ import Nav from "../../Nav/Nav"
 import Me from "./Components/Me/Me" 
 import Interests from "./Components/Interests/Interests"
 import Quote from "./Components/Quote/Quote"
+import Hobbies from "./Components/Hobbies/Hobbies"
 
 
-class Bio extends Component {
+class BioContainer extends Component {
     
     render () {
         return (
@@ -15,17 +16,10 @@ class Bio extends Component {
                 <Me/>
                 <Interests/>
                 <Quote/>
-                <div className='bioContainer-interests'>
-
-                </div>
-                <div className='bioContainer-hobbies'>
-                </div>
-                <div className='bioContainer-quote'>
-                </div>
-                
+                <Hobbies/>
             </div>
         )
     }
 }
 
-export default Bio
+export default BioContainer

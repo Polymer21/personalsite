@@ -14,7 +14,7 @@ class Home extends Component {
   state = {
     homeContainer: '',
     countryId: 'us',
-    zipId: '90210',
+    zipId: '84102',
     weatherState: {}
 }
 
